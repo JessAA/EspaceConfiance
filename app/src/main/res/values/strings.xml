@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyTF1 - Espace de Confiance</string>
+    <string name="legalinfo_trusted_environment_button">Accéder à l\'espace de confiance</string>
+    <string name="tv_url_espace_de_confiance">http://www.tf1.fr/espace-de-confiance/</string>
+    <string name="tv_url_google">http://www.google.com/</string>
+</resources>

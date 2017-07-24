@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="mytf1_tv_blue_1">#FF303451</color>
+    <color name="mytf1_tv_red">#FFE2001A</color>
+    <color name="grey_medium">#999</color>
+    <color name="blue_medium">#3366FF</color>
+    <color name="mytf1_tv_button_background_default">@color/mytf1_tv_blue_1</color>
+    <color name="mytf1_tv_button_background_disabled">#FF2B2B2B</color>
+    <color name="mytf1_tv_dialog_button_background_default">#1a1b2f</color>
+</resources>
