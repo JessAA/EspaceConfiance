@@ -1,0 +1,11 @@
+<network-security-config>
+    <debug-overrides>
+<!--    <domain-config>
+        <domain includeSubdomains="true">example.com</domain>-->
+            <trust-anchors>
+                <!-- Trust user added CAs while debuggable only -->
+                <certificates src="@raw/charles_ssl_proxying_certificate" />
+            </trust-anchors>
+  <!--  </domain-config>-->
+    </debug-overrides>
+</network-security-config>

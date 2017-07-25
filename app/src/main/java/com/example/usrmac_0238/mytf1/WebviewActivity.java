@@ -1,9 +1,6 @@
 package com.example.usrmac_0238.mytf1;
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
-import android.graphics.Bitmap;
 import android.net.http.SslError;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -29,9 +26,10 @@ public class WebviewActivity extends Activity {
 
         WebSettings settings = webview.getSettings();
         settings.setJavaScriptEnabled(true);
-        settings.setDomStorageEnabled(true);
-        webview.loadUrl(getString(R.string.tv_url_espace_de_confiance));
+        //settings.setDomStorageEnabled(true);
         webview.setWebViewClient(new MyWebClient());
+        webview.loadUrl(getString(R.string.tv_url_espace_de_confiance));
+        //https://aax.amazon-adsystem.com/e/dtb/bid?src=3492&u=https%3A%2F%2Fwww.tf1.fr%2Fespace-de-confiance%3Ffilter%3Dbonus&cb=1853794
 
         /*webview.setWebViewClient(new MyWebClient());
 

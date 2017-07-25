@@ -3,4 +3,5 @@
     <string name="legalinfo_trusted_environment_button">Accéder à l\'espace de confiance</string>
     <string name="tv_url_espace_de_confiance">http://www.tf1.fr/espace-de-confiance/</string>
     <string name="tv_url_google">http://www.google.com/</string>
+   <!-- <string name="https">https://aax.amazon-adsystem.com/e/dtb/bid?src=3492&u=https%3A%2F%2Fwww.tf1.fr%2Fespace-de-confiance%3Ffilter%3Dbonus&cb=1853794</string>-->
 </resources>
